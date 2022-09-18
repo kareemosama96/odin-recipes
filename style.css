@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #111;
+    text-align: center;
+}
+
+.container{
+    padding : 0 10%;
+    margin: 2%;
+    border: 0.3em solid green;
+    border-radius: 2em;
+    background-color: black;
+    color: green;
+
+}
+
+h1{
+    padding: 1%;
+    margin : 2% auto;
+    border: 0.1em solid green;
+    border-radius: 1em;
+
+
+
+}
+h1 em{
+    color:whitesmoke;
+    text-decoration: underline;
+}
+
+.image img{
+    margin : 2%;
+    border: 0.1em solid green;
+    border-radius: 2em;
+    width: 50%;
+}
+
+hr{
+    margin: 2% auto;
+    color: green;
+}
+.links{
+    margin: 4% auto ;
+    border: 0.1em solid green;
+    border-radius: 2em;
+
+
+}
+.links *{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 2%;
+
+}
+.links a{
+   
+    color :whitesmoke;
+    text-decoration: none;
+}
+.links a:hover{
+    color:green;
+    text-decoration: underline whitesmoke;
+}
