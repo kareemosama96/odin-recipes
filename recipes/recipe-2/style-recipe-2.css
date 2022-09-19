@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #111;
+    text-align: center;
+}
+
+.container{
+    padding : 0 10%;
+    margin: 2%;
+    border: 2px solid green;
+    border-radius: 2em;
+    background-color: black;
+    color: whitesmoke;
+
+
+}
+
+h1, h3{
+    padding: 1%;
+    margin : 2% auto;
+    border: 1px solid green;
+    border-radius: 1em;
+    color:green;
+
+
+}
+h1 em, h3 em{
+    color:whitesmoke;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.container img{
+    margin: 2% auto;
+    border-radius: 1em;
+    width: 100%;
+}
+
+.top{
+    overflow: hidden;
+
+
+}
+.top-float{
+    width: 45%;
+    float: left;
+    padding: 1%;
+    border:none;
+
+}
+.top-float p, .bottom ol{
+    padding: 5%   ;
+    text-align: left;
+    text-transform: capitalize;
+    
+}
+
+
+.links p{
+    border: 0.1em solid green;
+    border-radius: 2em;
+    border:none;
+    text-align: center;
+    padding: 4%
+
+}
+
+.links a{
+   
+    color :green;
+}
+.links a:hover{
+    color:whitesmoke;
+    text-decoration: underline whitesmoke; 
+}
